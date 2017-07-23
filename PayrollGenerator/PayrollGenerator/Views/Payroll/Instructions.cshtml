@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Payroll Instructions</h1>
+<ul>
+    <li>All fields are mandatory</li>
+    <li>First and Last name should start with upper case</li>
+    <li>Annual salary accepts values between $1 to $500000</li>
+    <li>SuperAnnuation values should be from 1 to 50</li>
+    <li>You can select any date in a calender month. However, the payroll is calculated for the entire month(i.e from start to end of the month, not from the selected date to the end of the month)</li>
+</ul>
+
+@Html.ActionLink("Go to Payroll", "Index")

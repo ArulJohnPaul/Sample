@@ -1,0 +1,15 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Payroll Assumptions</h1>
+<ul>
+    <li> Annual salary range is assumed between $1 to $500000</li>
+    <li> SuperAnnuation is set between 1 to 50%</li>
+    <li> The tax values given for the year 2012 -2013 is used for the tax calculation irrespective of the year selected in the payroll generator application</li>
+    <li> A calender control is used in the application with the assumption that this application can be extended to calculate the payroll from the selected date to the end of the month</li>
+    <li> Payroll calculation is always for the entire month</li>
+</ul>
+
+@Html.ActionLink("Go to Payroll", "Index")
